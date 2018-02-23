@@ -13,7 +13,7 @@ import 'react-dates/lib/css/_datepicker.css'
 
 const store = configureStore();
 
-store.dispatch(addExpense({ description: 'Water Bill', amount: 100}));
+/* store.dispatch(addExpense({ description: 'Water Bill', amount: 100}));
 store.dispatch(addExpense({ description: 'Gas Bill', createdAt: 1000 }));
 store.dispatch(addExpense({ description: 'Rent', amount: 109500}));
 /* store.dispatch(setTextFilter('Water'));
@@ -21,11 +21,11 @@ store.dispatch(addExpense({ description: 'Rent', amount: 109500}));
 setTimeout(()=>{
     store.dispatch(setTextFilter('Bill'));
 
-},3000) */
+},3000)
 
 const state = store.getState();
 const visibleExpenses = getVisibleExpenses(state.expenses, state.filters)
-console.log(visibleExpenses);
+console.log(visibleExpenses); */
 
 /* in parentesi graffa a linea 24 il nome dello store che vado a dichiarare a linea 13 */
 
