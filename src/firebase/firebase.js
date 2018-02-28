@@ -15,6 +15,8 @@ firebase.initializeApp(config);
 
 const database = firebase.database();
 
+export { firebase, database as default };
+
 /* const firebaseExpenses = {
   expenses: {
     1: { //l'id fa da chiave
