@@ -11,6 +11,7 @@ import './styles/styles.scss';
 import { setTimeout } from 'timers';
 import 'react-dates/lib/css/_datepicker.css'
 import './firebase/firebase';
+// import './playground/promises';
 
 const store = configureStore();
 /* store.dispatch(addExpense({ description: 'Water Bill', amount: 100}));
