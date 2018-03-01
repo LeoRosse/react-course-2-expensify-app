@@ -49,10 +49,10 @@ database.ref('expenses').push(firebaseExpenses); */
   .once('value')
   .then((snapshot) => {
     const expenses = [];
-    snapshot.forEach((childShapshot) => {
+    snapshot.forEach((childSnapshot) => {
       expenses.push({
-        id: childShapshot.key,
-        ...childShapshot.val()
+        id: childSnapshot.key,
+        ...childSnapshot.val()
       });
     });
     console.log(expenses)
