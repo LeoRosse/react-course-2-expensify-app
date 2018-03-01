@@ -33,7 +33,7 @@ ShallowWrapper {
           </h3>
 </Link>,
         <p>
-          $195.00
+          $1.95
           -
           January 1st, 1970
 </p>,
@@ -72,14 +72,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "$195.00",
+            "$1.95",
             "-",
             "January 1st, 1970",
           ],
         },
         "ref": null,
         "rendered": Array [
-          "$195.00",
+          "$1.95",
           "-",
           "January 1st, 1970",
         ],
@@ -104,7 +104,7 @@ ShallowWrapper {
             </h3>
 </Link>,
           <p>
-            $195.00
+            $1.95
             -
             January 1st, 1970
 </p>,
@@ -143,14 +143,14 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "$195.00",
+              "$1.95",
               "-",
               "January 1st, 1970",
             ],
           },
           "ref": null,
           "rendered": Array [
-            "$195.00",
+            "$1.95",
             "-",
             "January 1st, 1970",
           ],
