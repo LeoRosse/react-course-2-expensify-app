@@ -14,6 +14,8 @@ import 'react-dates/lib/css/_datepicker.css'
 import { firebase } from './firebase/firebase';
 // import './playground/promises';
 
+import LoadingPage from './components/LoadingPage';
+
 const store = configureStore();
 /* store.dispatch(addExpense({ description: 'Water Bill', amount: 100}));
 store.dispatch(addExpense({ description: 'Gas Bill', createdAt: 1000 }));
@@ -45,7 +47,7 @@ const renderApp = () => {
     }
 }
 
-ReactDOM.render(<p>Loading...</p>, document.getElementById('app'))
+ReactDOM.render(<LoadingPage />, document.getElementById('app'))
 
 //logica per la autenticazione e per il logout
 firebase.auth().onAuthStateChanged((user) => {
